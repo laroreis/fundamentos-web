@@ -1,0 +1,122 @@
+/* Estilos da página index.html */
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTexto{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 240, 157);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.p-20{
+    padding: 20px;
+
+}
+
+.wh-300{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.wh-100{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#menu li a:hover{
+ color: grey;
+}
+
+.tm-social{
+    height: 50px;
+    width: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+#p1{
+    font-size: 21 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: darkred;
+}
+
+.p2{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: darkred;
+}
+
+.t1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: #240303;
+}
+
+.t2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: #240303;
+}
+
+.t2-menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: #240303;
+}
+
+.body{
+    background-color: #F0BF4c ;
+      }
+
+.header {
+        background-color: #c7190e;
+        text-align: left;
+        padding: 5px;
+      }
+/* Estilos da página contato.html */
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.t3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}

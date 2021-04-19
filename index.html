@@ -5,58 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
-<body>
-   <ul>
-       <li>
-        <a href="index.html">Home</a></li>
-       <li>
-           <a href="contato.html">Contato</a>
-       </li>
-   </ul>
-    <h1>Olá Mundo, Eu sou a Laro!</h1>
+<body class="body">
+    <header class="header">
+        <ul id="menu" class="t2-menu">
+            <li>
+             <a href="index.html">Home</a></li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </header>
+   
 
-    <img src="assets/img/banner.jpg"  width="560" height="315" alt="Banner do site, laro Produções">
+    <h1 class="center t1">Olá Mundo, Eu sou a Laro!</h1>
 
-    <p>
+    <img src="assets/img/banner.jpg"  width= "100%" height="20%" alt="Banner do site, laro Produções">
+
+<div class="containerTexto">
+    <div>
+        <img class="wh-300 p-20"
+        src="https://avatars.githubusercontent.com/u/79121527?v=4" alt="Foto da autora">
+    </div>
+
+    <div class="p-20">
+    <p id="p1">
         Olá meu nome é Larissa, mas eu prefiro a versão em grego Laro! eu tenho uma história confusa que sempre puxa para arte, e por isso que estou aqui, quase me formando numa área artística e ao mesmo tempo institucional. A área de produção multimídia.  
 
     </p>
 
-    <p>
-        Não lembro muita coisa de quando era pequena, mas eu lembro perfeitamente que amava duas coisas, desenhar e dançar! Sempre fui apaixonada por desenho passando horas sentada no chão da sala, com a mesinha de centro copiando os desenhos da minha irmã mais velha, ela ficava muito brava por sempre está mexendo nas coisas dela, mas eu amava os desenhos o que eu poderia fazer?
+    <p class="p2">
+        "Não lembro muita coisa de quando era pequena, mas eu lembro perfeitamente que amava duas coisas, desenhar e dançar! Sempre fui apaixonada por desenho passando horas sentada no chão da sala, com a mesinha de centro copiando os desenhos da minha irmã mais velha, ela ficava muito brava por sempre está mexendo nas coisas dela, mas eu amava os desenhos o que eu poderia fazer?"
     </p>
 
-    <p>
+    <p id="p1">
         Na escola sempre fui muito centrada e dificilmente tinha notas baixas, mas a maior facilidade da minha vida era a aula de artes, nunca esqueço dos elogios dos professores ou o quanto eles me usavam para fazer os cartazes comemorativos da escola, apesar desse abuso sempre amei colorir, desenhar, pintar e adorava as experimentações da escola, com colagens e esculturas feitas de jornal.
     </p>
-
-    <h2>Musica que estou ouvindo no Momento!</h2>
-    <h3>Espaço para a Rainha</h3>
-    <audio autoplay="autoplay" controls="controls" loop>
-        <source src="assets/audio/beyonce.mp3" type="audio/mp3" />
-    </audio>
-
-    <h2>Meu Canal</h2>
-    <h3>Se inscreva!!!</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IT-RSuOnDIY" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <h2>Lugares para Conhecer</h2>
-    <div>
-        <p>1. Maldivas</p>
-        <img src="assets/img/ilhasMaldivas.png" alt="Ilhas Maldivas Praias" width="560" height="315">
-        <img src="assets/img/ilhasMaldivas1.jpg" alt="Ilhas Maldivas Casa" width="560" height="315">
     </div>
-    <div>
-        <p>2. Grecia</p>
-        <img src="assets/img/grecia.jpg" alt="Grecia Cidade" width="560" height="315">
-        <img src="assets/img/grecia1.jpg" alt="Grecia Pontos Turisticos" width="560" height="315">
+   
+</div>
+
+
+    <h2 class="t2">Música que estou ouvindo no Momento!</h2>
+    <h3 class="t3 center">Espaço para a Rainha</h3>
+
+    <div class="container">
+        <div>
+            <img class="wh-100 mb-50" src="assets/img/beyonce.jpg" alt="Beyonce">
+        </div>
+       <div>
+        <audio class="ml-50 mb-50" autoplay="autoplay" controls="controls" loop>
+            <source src="assets/audio/beyonce.mp3" type="audio/mp3" />
+        </audio>
+       </div>
     </div>
-    <div>
-        <p>3. Rio de Janeiro</p>
-        <img src="assets/img/rioJaneiro.jpg" alt="Rio de Janeiro Cidade" width="560" height="315">
-        <img src="assets/img/rioJaneiro1.jpg" alt="Rio de Janeiro Ponto Turisticos" width="560" height="315">
+   
+    <div class="container mb-50">
+        <div>
+            <h2 class="center mb-50 t1"> Meu Canal </h2>
+    <h3 class="t2">Se inscreva!!!</h3>
+        </div>
+    
+        <div class="ml-50">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IT-RSuOnDIY" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
     </div>
+
+    <hr>
+    <div class="center">
+        <h2 class="t1">Lugares para Conhecer</h2>
+        <div >
+            <p class="t3">1. Maldivas</p>
+            <img src="assets/img/ilhasMaldivas.png" alt="Ilhas Maldivas Praias" width="560" height="315">
+            <img src="assets/img/ilhasMaldivas1.jpg" alt="Ilhas Maldivas Casa" width="560" height="315">
+        </div>
+        <div>
+            <p class="t3">2. Grecia</p>
+            <img src="assets/img/grecia.jpg" alt="Grecia Cidade" width="560" height="315">
+            <img src="assets/img/grecia1.jpg" alt="Grecia Pontos Turisticos" width="560" height="315">
+        </div>
+        <div>
+            <p class="t3">3. Rio de Janeiro</p>
+            <img src="assets/img/rioJaneiro.jpg" alt="Rio de Janeiro Cidade" width="560" height="315">
+            <img src="assets/img/rioJaneiro1.jpg" alt="Rio de Janeiro Ponto Turisticos" width="560" height="315">
+        </div>
+    </div>
+
+
+    <hr>
+    <footer>
+        <div class="center t3">
+            <a href="https://www.instagram.com/laro_producoes/" target="_blank">
+                <img class="tm-social p-20"
+                src="assets/img/instagram.png" alt="Logo Instagram"></a> 
+
+            <a href="https://www.linkedin.com/in/larissamreis/" target="_blank">
+                <img class="tm-social p-20"
+                src="assets/img/linkedin.png" alt="Logo LinkedIn"></a> 
+
+            <a href="https://www.youtube.com/channel/UCdB6k7xnBsEmdEIreJt9A8A" target="_blank">
+                <img class="tm-social p-20"
+                src="assets/img/youtube.png" alt="Logo youtube"></a> 
+          
+        </div>
+            <p class="center t3">
+            Todos os direitos reservados: Laro Produções &copy; 2021
+            </p>
+    </footer>
 </body>
 </html>
 
