@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Sobre</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<body>
+<body class="body">
     <header class="header">
         <ul id="menu" class="t2-menu">
             <li>
@@ -29,19 +29,22 @@
             <h2 class="t3">Mande uma mensagem!</h2> 
 
             <label class="t3" for="nome">Nome: </label><br>
-            <input type="text" id = "nome">
-            <br>
+            <input type="text" id = "nome" onkeyup="validaNome()" >
+           <div id="txtNome"></div>
             <br>
 
             <label class="t3" for="email">E-mail:</label><br>
-            <input type="email" id = "email">
-            <br>
+            <input type="email" id = "email" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
             <br>
             
             <label class="t3" for="assunto">Assunto:</label><br>
-            <textarea name="assunto" id="assunto" cols="30" rows="10" ></textarea>
+            <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()" ></textarea>
+            <div id="txtAssunto"></div>
             <br>
-            <button class="t3">Enviar</button>
+            <button class="t3" onclick="enviar()">Enviar</button>
+            <br>
+            <br>
         </form>
     </div>
 
@@ -50,7 +53,16 @@
         <p class="t3">
             California City, CA, EUA
         </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208795.4012157109!2d-118.02274479984004!3d35.14594164206268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c22cdcfc4fafbf%3A0xc476253ffb66ca4a!2sCentral%20Park!5e0!3m2!1spt-BR!2sbr!4v1618588294464!5m2!1spt-BR!2sbr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208795.4012157109!2d-118.02274479984004!3d35.14594164206268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c22cdcfc4fafbf%3A0xc476253ffb66ca4a!2sCentral%20Park!5e0!3m2!1spt-BR!2sbr!4v1618588294464!5m2!1spt-BR!2sbr"
+        width="350"
+        height="250" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        id="mapa"
+        onmousemove="mapaZoom()"
+        onmouseout="mapaNormal()"
+        ></iframe>
     </div>
 
 </div>
@@ -76,6 +88,9 @@
             </p>
     </footer>
 
+
+
+<script src="assets/js/script.js"></script>
    
 </body>
 </html>
